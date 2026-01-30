@@ -7,7 +7,7 @@ CORS(app)
 
 uhost = "localhost"
 uuser = "root"
-upassword = "YOUR_SQL_PASSWORD"
+upassword = "YOUR_MYSQL_PASSWORD"
 ucarset = "utf8mb4"
 udatabase = "tugasdb"
 
