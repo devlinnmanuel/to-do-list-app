@@ -1,29 +1,114 @@
-# Vue_UAs
+# To Do List App (Simple Task Application)
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a **Simple Task Application** built using **Vue.js** as the Front End and **REST API** as the Back End.  
+The application was developed as a **Final Project (UAS)** for the course:
 
-## Recommended IDE Setup
+**UAS Pengembangan Aplikasi Berbasis Platform IBDA**  
+Academic Year: **2024 / 2025**
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The main purpose of this application is to help users manage daily tasks efficiently by organizing tasks based on day and priority level.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Project Features
 
-## Project Setup
+- Login & Logout (simple authentication)
+- View and monitor tasks by day (Monday – Sunday)
+- Add, edit, delete, and mark tasks as done
+- Filter tasks by category (Important, Urgent, Regular)
+- Simple, responsive and user-friendly interface
 
-```sh
+---
+
+## Main Workflow
+
+1. User logs into the system  
+2. User views the task monitoring dashboard  
+3. User adds or edits tasks through the Task Entry form  
+4. User manages tasks (edit, delete, mark as done)  
+5. User logs out
+
+---
+
+## Use Cases
+
+### 1. Login & Logout
+For authentication simulation, no user database is required.  
+
+---
+
+### 2. Task Monitoring
+
+Users can view all tasks grouped by days: Monday - Sunday
+
+Each task belongs to one of three categories:
+
+- Important  
+- Urgent  
+- Regular  
+
+Users can filter tasks based on category, and the task list will update automatically.
+
+Each task card displays:
+
+- Task Title  
+- Task Description (partial or full)  
+- Last Updated Time  
+- Action buttons:
+  - Edit  
+  - Delete  
+  - Mark as Done  
+
+Rules:
+
+- If no tasks exist on a specific day, the UI shows a button to add a new task.
+- If a task is marked as **Done**, it can no longer be edited or deleted.
+
+---
+
+### 3. Task Entry
+
+This screen is used to:
+
+- Add a new task (empty form)
+- Edit an existing task (form filled with data)
+
+Form Fields:
+
+- Title  
+- Day  
+- Description  
+- Category (Important / Urgent / Regular)  
+- Status (Active, Deleted, Done)  
+- Last Updated Time  
+
+Available Actions:
+
+- **Save** → Save new task or update existing task  
+- **Cancel** → Return to Task Monitoring screen  
+
+---
+
+## Technology Stack
+
+### Front End
+- Vue.js
+
+### Back End
+- REST API
+
+### Database
+- MySQL
+
+---
+
+## How to Run the Project
+
+### Front End
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+Authentication is hardcoded in the server:
 
-```sh
-npm run build
-```
