@@ -7,7 +7,7 @@ CORS(app)
 
 uhost = "localhost"
 uuser = "root"
-upassword = "DevSQL265Man**"
+upassword = "YOUR_SQL_PASSWORD"
 ucarset = "utf8mb4"
 udatabase = "tugasdb"
 
