@@ -1,14 +1,12 @@
 # To Do List App (Simple Task Application)
 
-This project is a **Simple Task Application** built using **Vue.js** as the Front End and **REST API** as the Back End.  
+A **Simple Task Application** built using **Vue.js** as the Front End and **REST API** as the Back End.  
 The application was developed as a **Final Project (UAS)** for the course:
 
 **UAS Pengembangan Aplikasi Berbasis Platform IBDA**  
 Academic Year: **2024 / 2025**
 
 The main purpose of this application is to help users manage daily tasks efficiently by organizing tasks based on day and priority level.
-
----
 
 ## Project Features
 
@@ -18,8 +16,6 @@ The main purpose of this application is to help users manage daily tasks efficie
 - Filter tasks by category (Important, Urgent, Regular)
 - Simple, responsive and user-friendly interface
 
----
-
 ## Main Workflow
 
 1. User logs into the system  
@@ -28,14 +24,10 @@ The main purpose of this application is to help users manage daily tasks efficie
 4. User manages tasks (edit, delete, mark as done)  
 5. User logs out
 
----
-
 ## Use Cases
 
 ### 1. Login & Logout
 For authentication simulation, no user database is required.  
-
----
 
 ### 2. Task Monitoring
 
@@ -64,8 +56,6 @@ Rules:
 - If no tasks exist on a specific day, the UI shows a button to add a new task.
 - If a task is marked as **Done**, it can no longer be edited or deleted.
 
----
-
 ### 3. Task Entry
 
 This screen is used to:
@@ -87,8 +77,6 @@ Available Actions:
 - **Save** → Save new task or update existing task  
 - **Cancel** → Return to Task Monitoring screen  
 
----
-
 ## Technology Stack
 
 ### Front End
@@ -99,8 +87,6 @@ Available Actions:
 
 ### Database
 - MySQL
-
----
 
 ## How to Run the Project
 
