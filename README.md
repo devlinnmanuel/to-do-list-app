@@ -104,8 +104,6 @@ Available Actions:
 
 ## How to Run the Project
 
-### Front End
-
 Before running the Vue.js application, make sure the backend server is already running.
 
 1. Run the Flask backend server:
@@ -116,13 +114,13 @@ python appv2.py
 ```
 Ensure that appv2.py is located in the same directory as the project.
 
-Install dependencies and start the Vue application:
+2. Install dependencies and start the Vue application:
 ```bash
 npm install
 npm run dev
 ```
 
-The authentication (login) process is hardcoded in the backend server.
+3. The authentication (login) process is hardcoded in the backend server.
 ```bash
 Username: admin  
 Password: abcdef
